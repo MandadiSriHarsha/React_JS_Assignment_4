@@ -1,0 +1,130 @@
+.won-class {
+  color: #18ed66;
+}
+
+.lost-class {
+  color: #e31a1a;
+}
+
+.match-card-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0f172a;
+  border-radius: 14px;
+  width: 46%;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 4px;
+}
+
+@media (max-width: 400px) {
+  .match-card-item-image {
+    height: 40px;
+    width: 60px;
+  }
+  .match-card-item-heading {
+    font-size: 12px;
+  }
+  .match-card-item-description {
+    font-size: 10px;
+  }
+  .match-card-item-status {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 400px) {
+  .match-card-item-image {
+    height: 50px;
+    width: 70px;
+  }
+  .match-card-item-heading {
+    font-size: 14px;
+  }
+  .match-card-item-description {
+    font-size: 12px;
+  }
+  .match-card-item-status {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 576px) {
+  .match-card-item {
+    width: 30%;
+  }
+  .match-card-item-image {
+    height: 60px;
+    width: 80px;
+  }
+  .match-card-item-heading {
+    font-size: 16px;
+  }
+  .match-card-item-description {
+    font-size: 14px;
+  }
+  .match-card-item-status {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .match-card-item {
+    width: 30%;
+  }
+  .match-card-item-image {
+    height: 70px;
+    width: 90px;
+  }
+  .match-card-item-heading {
+    font-size: 18px;
+  }
+  .match-card-item-description {
+    font-size: 16px;
+  }
+  .match-card-item-status {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 992px) {
+  .match-card-item {
+    width: 30%;
+  }
+  .match-card-item-image {
+    height: 100px;
+    width: 110px;
+  }
+  .match-card-item-heading {
+    font-size: 20px;
+  }
+  .match-card-item-description {
+    font-size: 18px;
+  }
+  .match-card-item-status {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .match-card-item {
+    width: 30%;
+  }
+  .match-card-item-image {
+    height: 110px;
+    width: 120px;
+  }
+  .match-card-item-heading {
+    font-size: 22px;
+  }
+  .match-card-item-description {
+    font-size: 20px;
+  }
+  .match-card-item-status {
+    font-size: 22px;
+  }
+}

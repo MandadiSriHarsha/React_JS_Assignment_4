@@ -1,0 +1,121 @@
+.home-page-bg-container {
+  min-height: 100vh;
+  background-size: cover;
+  padding: 30px;
+}
+
+.loader-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-cards-list {
+  list-style-type: none;
+  padding: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.home-page-content-container {
+  width: 100%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-page-heading-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+  .home-page-bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  }
+}
+
+@media (min-width: 576px) {
+  .home-page-bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  }
+}
+
+@media (min-width: 768px) {
+  .home-page-bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  }
+}
+
+@media (max-width: 400px) {
+  .ipl-image {
+    height: 55px;
+    width: 50px;
+  }
+  .home-page-heading-card-main-heading {
+    font-size: 20px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 400px) {
+  .ipl-image {
+    height: 60px;
+    width: 55px;
+  }
+  .home-page-heading-card-main-heading {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  .ipl-image {
+    height: 70px;
+    width: 65px;
+  }
+  .home-page-heading-card-main-heading {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 768px) {
+  .ipl-image {
+    height: 90px;
+    width: 85px;
+  }
+  .home-page-heading-card-main-heading {
+    font-size: 25px;
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .ipl-image {
+    height: 100px;
+    width: 95px;
+  }
+  .home-page-heading-card-main-heading {
+    font-size: 28px;
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ipl-image {
+    height: 120px;
+    width: 115px;
+  }
+  .home-page-heading-card-main-heading {
+    font-size: 30px;
+  }
+}

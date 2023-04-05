@@ -1,0 +1,408 @@
+.latest-match-bg-container {
+  background-color: #0f172a;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.card-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card-1-content-card {
+  color: #ffffff;
+}
+
+.competing-team-date {
+  font-weight: 200;
+}
+
+.competing-team-venue {
+  font-weight: 200;
+}
+
+.competing-team-result {
+  font-weight: 200;
+}
+
+.competing-team-first-innings-description {
+  font-weight: 200;
+}
+
+.competing-team-second-innings-description {
+  font-weight: 200;
+}
+
+.competing-team-man-of-the-match-description {
+  font-weight: 200;
+}
+
+.competing-team-umpires-description {
+  font-weight: 200;
+}
+
+@media (max-width: 400px) {
+  .card-1-content-card {
+    width: 60%;
+  }
+  .card-1-image-card {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    align-self: center;
+  }
+  .competing-team-image {
+    height: 60px;
+    width: 60px;
+  }
+  .competing-team-heading {
+    font-size: 16px;
+  }
+  .competing-team-date {
+    font-size: 14px;
+  }
+  .competing-team-venue {
+    font-size: 12px;
+  }
+  .competing-team-result {
+    font-size: 12px;
+  }
+  .card-2 {
+    color: #ffffff;
+  }
+  .card-separator {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 0px;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+  }
+  .competing-team-first-innings-heading {
+    font-size: 16px;
+  }
+  .competing-team-first-innings-description {
+    font-size: 14px;
+  }
+  .competing-team-second-innings-heading {
+    font-size: 16px;
+  }
+  .competing-team-second-innings-description {
+    font-size: 14px;
+  }
+  .competing-team-man-of-the-match-heading {
+    font-size: 16px;
+  }
+  .competing-team-man-of-the-match-description {
+    font-size: 14px;
+  }
+  .competing-team-umpires-heading {
+    font-size: 16px;
+  }
+  .competing-team-umpires-description {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 400px) {
+  .card-1-content-card {
+    width: 60%;
+  }
+  .card-1-image-card {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    align-self: center;
+  }
+  .competing-team-image {
+    height: 75px;
+    width: 75px;
+  }
+  .competing-team-heading {
+    font-size: 18px;
+  }
+  .competing-team-date {
+    font-size: 16px;
+  }
+  .competing-team-venue {
+    font-size: 14px;
+  }
+  .competing-team-result {
+    font-size: 14px;
+  }
+  .card-2 {
+    color: #ffffff;
+  }
+  .card-separator {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    padding: 0px;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+  }
+  .competing-team-first-innings-heading {
+    font-size: 18px;
+  }
+  .competing-team-first-innings-description {
+    font-size: 16px;
+  }
+  .competing-team-second-innings-heading {
+    font-size: 18px;
+  }
+  .competing-team-second-innings-description {
+    font-size: 16px;
+  }
+  .competing-team-man-of-the-match-heading {
+    font-size: 18px;
+  }
+  .competing-team-man-of-the-match-description {
+    font-size: 16px;
+  }
+  .competing-team-umpires-heading {
+    font-size: 18px;
+  }
+  .competing-team-umpires-description {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 576px) {
+  .card-1-content-card {
+    width: 70%;
+  }
+  .card-1-image-card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 25px;
+    align-self: center;
+  }
+  .competing-team-image {
+    height: 85px;
+    width: 85px;
+  }
+  .competing-team-heading {
+    font-size: 20px;
+  }
+  .competing-team-date {
+    font-size: 18px;
+  }
+  .competing-team-venue {
+    font-size: 16px;
+  }
+  .competing-team-result {
+    font-size: 16px;
+  }
+  .card-2 {
+    color: #ffffff;
+  }
+  .card-separator {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    padding: 0px;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+  }
+  .competing-team-first-innings-heading {
+    font-size: 20px;
+  }
+  .competing-team-first-innings-description {
+    font-size: 18px;
+  }
+  .competing-team-second-innings-heading {
+    font-size: 20px;
+  }
+  .competing-team-second-innings-description {
+    font-size: 18px;
+  }
+  .competing-team-man-of-the-match-heading {
+    font-size: 20px;
+  }
+  .competing-team-man-of-the-match-description {
+    font-size: 18px;
+  }
+  .competing-team-umpires-heading {
+    font-size: 20px;
+  }
+  .competing-team-umpires-description {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  .latest-match-bg-container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+  }
+  .card-1 {
+    width: 70%;
+  }
+  .card-1-content-card {
+    width: 50%;
+    align-self: center;
+  }
+  .card-1-image-card {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: center;
+  }
+  .competing-team-image {
+    height: 150px;
+    width: 150px;
+  }
+  .competing-team-heading {
+    font-size: 25px;
+  }
+  .competing-team-date {
+    font-size: 22px;
+  }
+  .competing-team-venue {
+    font-size: 22px;
+  }
+  .competing-team-result {
+    font-size: 22px;
+  }
+  .card-2 {
+    color: #ffffff;
+    width: 30%;
+    text-align: right;
+  }
+  .card-separator {
+    display: none;
+  }
+  .competing-team-first-innings-heading {
+    font-size: 23px;
+    padding-right: 10px;
+  }
+  .competing-team-first-innings-description {
+    font-size: 20px;
+    padding-right: 10px;
+  }
+  .competing-team-second-innings-heading {
+    font-size: 23px;
+    padding-right: 10px;
+  }
+  .competing-team-second-innings-description {
+    font-size: 20px;
+    padding-right: 10px;
+  }
+  .competing-team-man-of-the-match-heading {
+    font-size: 23px;
+    padding-right: 10px;
+  }
+  .competing-team-man-of-the-match-description {
+    font-size: 20px;
+    padding-right: 10px;
+  }
+  .competing-team-umpires-heading {
+    font-size: 23px;
+    padding-right: 10px;
+  }
+  .competing-team-umpires-description {
+    font-size: 20px;
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .competing-team-image {
+    height: 250px;
+    width: 250px;
+  }
+  .competing-team-heading {
+    font-size: 28px;
+  }
+  .competing-team-date {
+    font-size: 24px;
+  }
+  .competing-team-venue {
+    font-size: 24px;
+  }
+  .competing-team-result {
+    font-size: 24px;
+  }
+  .competing-team-first-innings-heading {
+    font-size: 25px;
+  }
+  .competing-team-first-innings-description {
+    font-size: 23px;
+  }
+  .competing-team-second-innings-heading {
+    font-size: 25px;
+  }
+  .competing-team-second-innings-description {
+    font-size: 22px;
+  }
+  .competing-team-man-of-the-match-heading {
+    font-size: 25px;
+  }
+  .competing-team-man-of-the-match-description {
+    font-size: 22px;
+  }
+  .competing-team-umpires-heading {
+    font-size: 25px;
+  }
+  .competing-team-umpires-description {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .competing-team-image {
+    height: 300px;
+    width: 300px;
+  }
+  .competing-team-heading {
+    font-size: 33px;
+  }
+  .competing-team-date {
+    font-size: 27px;
+  }
+  .competing-team-venue {
+    font-size: 27px;
+  }
+  .competing-team-result {
+    font-size: 27px;
+  }
+  .competing-team-first-innings-heading {
+    font-size: 30px;
+  }
+  .competing-team-first-innings-description {
+    font-size: 25px;
+  }
+  .competing-team-second-innings-heading {
+    font-size: 30px;
+  }
+  .competing-team-second-innings-description {
+    font-size: 25px;
+  }
+  .competing-team-man-of-the-match-heading {
+    font-size: 30px;
+  }
+  .competing-team-man-of-the-match-description {
+    font-size: 25px;
+  }
+  .competing-team-umpires-heading {
+    font-size: 30px;
+  }
+  .competing-team-umpires-description {
+    font-size: 25px;
+  }
+}
